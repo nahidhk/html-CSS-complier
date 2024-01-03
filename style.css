@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+.co-box:hover{
+  color:lime; background-color: black;
+}
+.co-box{
+  height: 90vh;
+  width: 100%;
+ border: 2px solid #4680ff;
+
+ outline: none;
+ font-size: 15pt;
+ 
+}
+.nav{
+height: 50px; 
+width: 100%;
+background-color: #2A2A2A;
+}
+.sec{
+  text-align: center;
+  font-size: 15pt;
+  height: 38px;
+  width: 200px;
+  position: absolute;
+  left: 40%;
+  top: 5px;
+ background-color: #2A2A2A;
+  color: #4680ff;
+ border: 1px solid #4680ff;
+ 
+  outline: none;
+  cursor: pointer;
+}
+.btn{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  height: 40px;
+  width: 80px;
+  background-color: #FF04CA00;
+  border: 1px solid #4680FF00;
+  color: #4680ff;
+  font-size: 15pt;
+  transition: all 0.5s;
+}
+.btn:hover{
+  background-color: #4680ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/*=== css mobile===*/
+
+@media only screen and (max-width: 600px) {
+ .co-box{
+   height: 100vh;
+   border: none;
+ }
+ .sec{
+   left: 15%;
+ }
+}
